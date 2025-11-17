@@ -1,0 +1,33 @@
+[project]
+name = "brain_to_text"
+version = "0.1.0"
+description = "Brain-to-text project"
+authors = [
+    { name = "Martin Iniguez" }
+]
+
+dependencies = [
+    "jupyter==1.1.1",
+    "numpy==2.1.2",
+    "pandas==2.3.0",
+    "matplotlib==3.10.1",
+    "scipy==1.16.3",
+    "scikit-learn==1.6.1",
+    "tqdm==4.67.1",
+    "g2p_en==2.1.0",
+    "h5py==3.15.1",
+    "omegaconf==2.3.0",
+    "editdistance==0.8.1",
+    "huggingface-hub==0.33.1",
+    "transformers==4.53.0",
+    "tokenizers==0.21.2",
+    "torchaudio==2.9.1",
+    "accelerate==1.8.1"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["brain_to_text"]
