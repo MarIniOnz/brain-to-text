@@ -1,6 +1,6 @@
 VENV_NAME ?= .venv
 
-USER_PYTHON ?= python3
+USER_PYTHON ?= python3.13
 VENV_PYTHON = ${VENV_NAME}/bin/python
 
 export PYTHONPATH := $(PYTHONPATH):./src

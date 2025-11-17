@@ -22,7 +22,8 @@ dependencies = [
     "transformers==4.53.0",
     "tokenizers==0.21.2",
     "torchaudio==2.9.1",
-    "accelerate==1.8.1"
+    "accelerate==1.8.1",
+    "ruff==0.14.5"
 ]
 
 [build-system]
