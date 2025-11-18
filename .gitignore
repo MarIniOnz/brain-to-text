@@ -7,3 +7,9 @@
 
 # ignore ds_store files
 .DS_Store
+
+# ignore trained models
+trained_models/
+
+# vscode settings
+.vscode/
